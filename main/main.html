@@ -1,6 +1,5 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   margin: 0;
@@ -43,6 +42,26 @@ body {
    color: black;
    text-align: center;
 }
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
 </style>
 </head>
 <body>
@@ -55,8 +74,12 @@ body {
   <a href="../sport.html">SPORT</a>
   <a href="../jackets.html">JACKETS</a>
 </div>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_960_720.jpg" alt="" width="1300" height="600" /></p>
-<!-- footer -->
+<div class="container">
+  <p><img style="display: block; margin-left: auto; margin-right: auto; width: 75%" src="https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_960_720.jpg"></p>
+  <button class="btn" onclick="window.location.href = 'https://w3docs.com';">Go Shop</button>
+</div>
+<!-- footer 
+TODO
 <footer>
     <div class="social">
         <ul class="list-group list-group-columns">
@@ -67,5 +90,6 @@ body {
         </ul>
     </div>
 </footer>
+-->
 </body>
 </html>
