@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        /* Slideshow */
+
+        .section1 {
+            background: url(files/home-slideshow-001.jpeg);
+            height: 90vh;
+            background-size: cover;
+        }
+
+        #overlay {
+            font-family: Oswald;
+            text-transform: uppercase;
+            font-size: 3vw;
+            font-weight: 700;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* End Slideshow */
+        /* Footer */
+
+        footer {
+            background: #111111;
+            min-height: 10vh;
+            display: flex;
+        }
+
+        footer>div {
+            flex: 1;
+        }
+
+        .copyright,
+        p {
+            color: whitesmoke;
+        }
+
+        .contact {
+            color: whitesmoke;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Home - Motive Media Productions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="section1">
+        <div id="overlay">
+            <h1>Text</h1>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="copyright">
+        <p>&copy; 2018</p>
+    </div>
+    <div class="brands">
+        <div class="social-media">
+            <a href="http://www.facebook.com/" target="_blank">
+                <img src="files/facebook.png"></a>
+            <a href="http://www.instagram.com/" target="_blank">
+                <img src="files/instagram.png"></a>
+            <a href="http://www.twitter.com/" target="_blank">
+                <img src="files/twitter.png"></a>
+        </div>
+    </div>
+    <div class="contact">
+        <li class="contact-list">
+            <a href="00">00</a>
+        </li>
+        <li class="contact-list">
+            <a href="mailto:hi@hi.com">hi@hi.com</a>
+        </li>
+    </div>
+</footer>
+
+</html>

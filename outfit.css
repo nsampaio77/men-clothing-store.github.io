@@ -1,0 +1,49 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+#modelall {
+display: flex;
+justify-content:center;
+}
+
+.model {
+position: relative;
+width: 623px;
+height: 720px;
+}
+
+#hats {
+position: absolute;
+top: -24px;
+left: 246px;
+}
+
+#sweaters {
+position: absolute;
+top: 196px;
+left: 42px;
+}
+
+#trousers {
+    position: absolute;
+    left: 442px;
+    bottom: 304px;
+}
+
+#check {
+display: flex;
+justify-content: center;
+top: 10px;
+}
+
+#shoes {
+position: absolute;
+    left: 342px;
+    bottom: -26px;
+}
